@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweakLoader", "TweakLoader\TweakLoader.csproj", "{6BCEE7B8-1502-1047-4D7F-4B620EC7D04F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patcher", "Patcher\Patcher.csproj", "{093BD162-8446-4EC5-8F05-701FFA307692}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BCEE7B8-1502-1047-4D7F-4B620EC7D04F}.Debug|x86.ActiveCfg = Debug|x86
+		{6BCEE7B8-1502-1047-4D7F-4B620EC7D04F}.Debug|x86.Build.0 = Debug|x86
+		{6BCEE7B8-1502-1047-4D7F-4B620EC7D04F}.Release|x86.ActiveCfg = Release|x86
+		{6BCEE7B8-1502-1047-4D7F-4B620EC7D04F}.Release|x86.Build.0 = Release|x86
+		{093BD162-8446-4EC5-8F05-701FFA307692}.Debug|x86.ActiveCfg = Debug|x86
+		{093BD162-8446-4EC5-8F05-701FFA307692}.Debug|x86.Build.0 = Debug|x86
+		{093BD162-8446-4EC5-8F05-701FFA307692}.Release|x86.ActiveCfg = Release|x86
+		{093BD162-8446-4EC5-8F05-701FFA307692}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37EACA12-47E0-4E1F-B15B-E6F014B3EE83}
+	EndGlobalSection
+EndGlobal
