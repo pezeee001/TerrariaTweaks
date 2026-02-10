@@ -25,14 +25,13 @@ namespace Tweaks
 
         static void Patch()
         {
+            //todo exclude unused mono.cecil.* dlls
             var executable = @"Terraria.exe";
             var patched = @"Terraria-patched.exe";
             if (!File.Exists(executable))
             {
                 throw new Exception($"Failed to read executable: {executable}");
             }
-
-            File.Copy(executable, $"{executable}.bk", true);
 
             using (var module = ModuleDefinition.ReadModule(executable))
             {
@@ -46,6 +45,8 @@ namespace Tweaks
                     Console.WriteLine($"Already patched: {executable}");
                     return;
                 }
+
+                File.Copy(executable, $"{executable}.bk", true);
 
                 var il = method.Body.GetILProcessor();
 
