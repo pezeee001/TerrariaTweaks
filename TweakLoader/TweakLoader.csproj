@@ -19,7 +19,7 @@
 
 	<ItemGroup>
 		<Reference Include="Terraria">
-			<HintPath>..\Terraria.exe</HintPath>
+			<HintPath>$(TERRARIA_PATH)</HintPath>
 			<Private>False</Private>
 		</Reference>
 	</ItemGroup>
